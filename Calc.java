@@ -65,6 +65,8 @@ public class Calc {
                 break;
             case "216":
                 inNum = input(false, "Binär");
+                res = DecHex(BiDec(inNum));
+                print(res);
                 break;
             case "102":
                 break;
@@ -110,9 +112,10 @@ public class Calc {
         while(true){
             if(bin == 0){
                 break;
-            } else {
+            }
+            else {
                 var tmp = bin%10;
-                dec += tmp*Math.pow(2, i);
+                dec += tmp * Math.pow(2, i);
                 bin = bin/10;
                 i++;
             }
@@ -129,17 +132,33 @@ public class Calc {
 
         char[] hexChart = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'};
         var hb = 0x0F;
-        var hex = new StringBuilder(8);
-        hex.setLength(8);
+        var hex = new StringBuilder(16);
+        hex.setLength(16);
+        var zero = true;
 
-        for (var i = 7; i >= 0; --i)
+        for (var i = 15; i >= 0; --i)
         {
             var j = dec & hb;
             hex.setCharAt(i, hexChart[j]);
             dec >>= 4;
         }
 
-        return hex.toString();
+        var tmp = hex.toString();
+
+        for (var i = 0; i<tmp.length() && zero; i++)
+        {
+            if (tmp.charAt(i)!='0')
+                zero = false;
+        }
+
+        if (zero) {
+            return "0";
+        }
+        else {
+            while (tmp.indexOf("0") == 0)
+                tmp = tmp.substring(1);
+            return tmp;
+        }
 
     }
 
