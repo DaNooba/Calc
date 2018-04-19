@@ -1,4 +1,4 @@
-package AprilProject;
+﻿package AprilProject;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -55,35 +55,50 @@ public class Calc {
         var convert = in.concat(out);
 
         switch (convert) {
-            case "22":
+            case "22":      //done
                 print(input(false, "Binär"));
                 break;
-            case "210":
+            case "210":     //done
                 inNum = input(false, "Binär");
                 res = BiDec(inNum);
                 print(res);
                 break;
-            case "216":
+            case "216":     //done
                 inNum = input(false, "Binär");
                 res = DecHex(BiDec(inNum));
                 print(res);
                 break;
             case "102":
+                inNum = input(false, "Dezimal");
+                res = DecBin(inNum);
+                print(res);
                 break;
-            case "1010":
+            case "1010":    //done
                 print(input(false, "Dezimal"));
                 break;
-            case "1016":
+            case "1016":    //done
                 inNum = input(false, "Dezimal");
                 res = DecHex(inNum);
                 print(res);
                 break;
+            case "162":
+                inNum = input(false, "Hexadezimal");
+                break;
+            case "1610":    //done
+                inNum = input(false, "Hexadezimal");
+                res = HexDec(inNum);
+                print(res);
+                break;
+            case "1616":    //done
+                print(input(false, "Hexadezimal"));
 
         }
 
     }
 
-    private static String simplify(String in) {
+    private static String simplify(String cIn) {
+
+        var in = cIn.toLowerCase();
 
         if (bincheck(in)) {
             var sIn = "2";
@@ -162,6 +177,43 @@ public class Calc {
 
     }
 
+    private static String HexDec(String in) {
+        var digits = "0123456789ABCDEF";
+        in = in.toUpperCase();
+        var tmp = 0;
+
+        for (var i = 0; i < in.length(); i++) {
+            var c = in.charAt(i);
+            var d = digits.indexOf(c);
+            tmp = 16 * tmp + d;
+        }
+
+        var dec = Integer.toString(tmp);
+
+        return dec;
+    }
+
+    private static String DecBin(String in) {
+
+        var dec = Integer.parseInt(in);
+        var res = "";
+        var tmp = 0;
+
+        int bin[] = new int[32];
+        var i = 0;
+        while(dec > 0){
+            bin[i++] = dec%2;
+            dec = dec/2;
+        }
+        for(var j = i-1; i >= 0; i--){
+            tmp = bin[j];
+            res = res.concat(Integer.toString(tmp));
+        }
+
+        return res;
+
+    }
+
     private static boolean bincheck(String in) {
         if (in.equals("2") || in.equals("bin") || in.equals("binary") || in.equals("binär")) {
             return true;
@@ -205,7 +257,7 @@ public class Calc {
                 System.exit(0);
             }
             else {
-                System.out.println("Bitte geben sie y für ja oder n zum beenden des Programms ein.");
+                System.out.println("Bitte geben sie y für das weitere ausführen oder n zum beenden des Programms ein.");
             }
 
         }
