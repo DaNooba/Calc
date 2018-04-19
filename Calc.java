@@ -46,8 +46,8 @@ public class Calc {
 
     private static void select(String cIn, String cOut) {
 
-        var inNum = "";
-        var res = "";
+        String inNum;
+        String res;
 
         var in = simplify(cIn);
         var out = simplify(cOut);
@@ -68,7 +68,7 @@ public class Calc {
                 res = DecHex(BiDec(inNum));
                 print(res);
                 break;
-            case "102":
+            case "102":     //done
                 inNum = input(false, "Dezimal");
                 res = DecBin(inNum);
                 print(res);
@@ -81,8 +81,10 @@ public class Calc {
                 res = DecHex(inNum);
                 print(res);
                 break;
-            case "162":
+            case "162":     //done
                 inNum = input(false, "Hexadezimal");
+                res = DecBin(HexDec(inNum));
+                print(res);
                 break;
             case "1610":    //done
                 inNum = input(false, "Hexadezimal");
@@ -180,6 +182,13 @@ public class Calc {
     private static String HexDec(String in) {
         var digits = "0123456789ABCDEF";
         in = in.toUpperCase();
+
+        for (var j = 0; j < in.length(); j++) {
+            for (var k = 0; k < digits.length(); k++) {
+                
+            }
+        }
+
         var tmp = 0;
 
         for (var i = 0; i < in.length(); i++) {
@@ -197,7 +206,7 @@ public class Calc {
 
         var dec = Integer.parseInt(in);
         var res = "";
-        var tmp = 0;
+        int tmp;
 
         int bin[] = new int[32];
         var i = 0;
@@ -205,7 +214,7 @@ public class Calc {
             bin[i++] = dec%2;
             dec = dec/2;
         }
-        for(var j = i-1; i >= 0; i--){
+        for(var j = i-1; j >= 0; j--){
             tmp = bin[j];
             res = res.concat(Integer.toString(tmp));
         }
