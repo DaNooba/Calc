@@ -1,4 +1,4 @@
-﻿package AprilProject;
+package AprilProject;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -126,6 +126,12 @@ public class Calc {
         var i = 0;
         var dec = 0;
 
+        for (var j = 0; j < in.length(); j++) {
+            if (in.charAt(j) != '1' && in.charAt(j) != '0') {
+                throw new InputMismatchException();
+            }
+        }
+
         while(true){
             if(bin == 0){
                 break;
@@ -184,8 +190,8 @@ public class Calc {
         in = in.toUpperCase();
 
         for (var j = 0; j < in.length(); j++) {
-            for (var k = 0; k < digits.length(); k++) {
-                
+            if (!digits.contains(Character.toString(in.charAt(j)))) {
+                throw new InputMismatchException();
             }
         }
 
@@ -258,7 +264,7 @@ public class Calc {
 
         while (true) {
             System.out.println("Wollen Sie eine weitere Zahl eingeben? y/n");
-            var in = scn();
+            var in = scn().toLowerCase();
             if (in.equals("y")) {
                 return;
             }
