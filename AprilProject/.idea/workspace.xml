@@ -13,67 +13,45 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="Converter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InterfaceProject/Converter.java">
+        <entry file="file://$PROJECT_DIR$/src/AllHopeIsLost/Converter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="68">
+              <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="program.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/InterfaceProject/program.java">
+      <file leaf-file-name="program.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AllHopeIsLost/program.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            <state relative-caret-position="782">
+              <caret line="46" column="59" lean-forward="false" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2674#2675#0" expanded="true" />
-                <element signature="e#2701#2702#0" expanded="true" />
-                <element signature="e#2753#2754#0" expanded="true" />
-                <element signature="e#2780#2781#0" expanded="true" />
-                <element signature="e#2833#2834#0" expanded="true" />
-                <element signature="e#2860#2861#0" expanded="true" />
-                <element signature="e#2913#2914#0" expanded="true" />
-                <element signature="e#2940#2941#0" expanded="true" />
-                <element signature="e#2993#2994#0" expanded="true" />
-                <element signature="e#3020#3021#0" expanded="true" />
-                <element signature="e#3058#3059#0" expanded="true" />
-                <element signature="e#3122#3123#0" expanded="true" />
+                <element signature="e#3179#3180#0" expanded="true" />
+                <element signature="e#3243#3244#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="maths.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InterfaceProject/maths.java">
+        <entry file="file://$PROJECT_DIR$/src/AllHopeIsLost/maths.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1598">
-              <caret line="94" column="4" lean-forward="false" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
-              <folding>
-                <element signature="e#2724#2725#0" expanded="true" />
-                <element signature="e#2751#2752#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1904">
+              <caret line="112" column="44" lean-forward="false" selection-start-line="112" selection-start-column="44" selection-end-line="112" selection-end-column="44" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="checking.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InterfaceProject/checking.java">
+      <file leaf-file-name="checking.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AllHopeIsLost/checking.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="25" lean-forward="true" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-              <folding>
-                <element signature="e#723#724#0" expanded="true" />
-                <element signature="e#750#751#0" expanded="true" />
-                <element signature="e#803#804#0" expanded="true" />
-                <element signature="e#830#831#0" expanded="true" />
-                <element signature="e#883#884#0" expanded="true" />
-                <element signature="e#910#911#0" expanded="true" />
-                <element signature="e#963#964#0" expanded="true" />
-                <element signature="e#990#991#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1088">
+              <caret line="64" column="42" lean-forward="false" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,6 +61,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -105,11 +84,16 @@
         <option value="$PROJECT_DIR$/src/InterfaceProject/program.java" />
         <option value="$PROJECT_DIR$/src/InterfaceProject/checking.java" />
         <option value="$PROJECT_DIR$/src/InterfaceProject/maths.java" />
+        <option value="$PROJECT_DIR$/src/AllHopeIsLost/Converter.java" />
+        <option value="$PROJECT_DIR$/src/AllHopeIsLost/program.java" />
+        <option value="$PROJECT_DIR$/src/AllHopeIsLost/maths.java" />
+        <option value="$PROJECT_DIR$/src/AllHopeIsLost/checking.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1294" />
     <option name="height" value="1407" />
   </component>
@@ -128,6 +112,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,6 +126,12 @@
               <item name="AprilProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="AprilProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AprilProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AprilProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AllHopeIsLost" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AprilProject" type="b2602c69:ProjectViewProjectNode" />
@@ -157,9 +150,6 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="RecentsManager">
@@ -179,7 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.program">
+  <component name="RunManager" selected="Application.program (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -218,6 +208,25 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="program (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="AllHopeIsLost.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="AllHopeIsLost.program" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="AprilProject" />
       <envs />
     </configuration>
     <configuration name="program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -318,16 +327,18 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Calc" />
       <item index="1" class="java.lang.String" itemvalue="Application.start" />
       <item index="2" class="java.lang.String" itemvalue="Application.program" />
+      <item index="3" class="java.lang.String" itemvalue="Application.program (1)" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.program" />
-        <item index="1" class="java.lang.String" itemvalue="Application.start" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Calc" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.program (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.program" />
+        <item index="2" class="java.lang.String" itemvalue="Application.start" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Calc" />
       </list>
     </recent_temporary>
   </component>
@@ -348,54 +359,35 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1294" height="1407" extended-state="0" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32766616" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27073553" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32807216" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277053" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12460937" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -403,7 +395,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -432,14 +424,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterfaceProject/maths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="94" column="4" lean-forward="false" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
+          <folding>
+            <element signature="e#2724#2725#0" expanded="false" />
+            <element signature="e#2751#2752#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterfaceProject/program.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1547">
+          <caret line="91" column="9" lean-forward="true" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2674#2675#0" expanded="false" />
+            <element signature="e#2701#2702#0" expanded="false" />
+            <element signature="e#2753#2754#0" expanded="false" />
+            <element signature="e#2780#2781#0" expanded="false" />
+            <element signature="e#2833#2834#0" expanded="false" />
+            <element signature="e#2860#2861#0" expanded="false" />
+            <element signature="e#2913#2914#0" expanded="false" />
+            <element signature="e#2940#2941#0" expanded="false" />
+            <element signature="e#2993#2994#0" expanded="false" />
+            <element signature="e#3020#3021#0" expanded="false" />
+            <element signature="e#3058#3059#0" expanded="false" />
+            <element signature="e#3122#3123#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterfaceProject/Converter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AprilProject/program.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <caret line="11" column="20" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="119" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2631#2632#0" expanded="true" />
-            <element signature="e#2695#2696#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2631#2632#0" expanded="false" />
+            <element signature="e#2695#2696#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -460,61 +493,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterfaceProject/Converter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/InterfaceProject/checking.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="25" lean-forward="true" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
           <folding>
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-            <element signature="e#883#884#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-            <element signature="e#963#964#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="false" />
+            <element signature="e#750#751#0" expanded="false" />
+            <element signature="e#803#804#0" expanded="false" />
+            <element signature="e#830#831#0" expanded="false" />
+            <element signature="e#883#884#0" expanded="false" />
+            <element signature="e#910#911#0" expanded="false" />
+            <element signature="e#963#964#0" expanded="false" />
+            <element signature="e#990#991#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterfaceProject/maths.java">
+    <entry file="file://$PROJECT_DIR$/src/AllHopeIsLost/Converter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1598">
-          <caret line="94" column="4" lean-forward="false" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
-          <folding>
-            <element signature="e#2724#2725#0" expanded="true" />
-            <element signature="e#2751#2752#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterfaceProject/program.java">
+    <entry file="file://$PROJECT_DIR$/src/AllHopeIsLost/program.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state relative-caret-position="782">
+          <caret line="46" column="59" lean-forward="false" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2674#2675#0" expanded="true" />
-            <element signature="e#2701#2702#0" expanded="true" />
-            <element signature="e#2753#2754#0" expanded="true" />
-            <element signature="e#2780#2781#0" expanded="true" />
-            <element signature="e#2833#2834#0" expanded="true" />
-            <element signature="e#2860#2861#0" expanded="true" />
-            <element signature="e#2913#2914#0" expanded="true" />
-            <element signature="e#2940#2941#0" expanded="true" />
-            <element signature="e#2993#2994#0" expanded="true" />
-            <element signature="e#3020#3021#0" expanded="true" />
-            <element signature="e#3058#3059#0" expanded="true" />
-            <element signature="e#3122#3123#0" expanded="true" />
+            <element signature="e#3179#3180#0" expanded="true" />
+            <element signature="e#3243#3244#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AllHopeIsLost/maths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1904">
+          <caret line="112" column="44" lean-forward="false" selection-start-line="112" selection-start-column="44" selection-end-line="112" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AllHopeIsLost/checking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="64" column="42" lean-forward="false" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
