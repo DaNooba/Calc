@@ -2,4 +2,4 @@
 
 # Calc
 
-Java calc that takes bin/dec/hex in and can convert all six way
+Java calc that takes a bin/dec/hex input and can convert into each respective system.
