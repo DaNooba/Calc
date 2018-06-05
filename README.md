@@ -3,3 +3,6 @@
 # Calc
 
 Java calc that takes a bin/dec/hex input and can convert into each respective system.
+
+## Requirements
+* JDK 10 and up
