@@ -1,9 +1,14 @@
-package AprilProject;
+package Calc;
 
 import java.util.InputMismatchException;
 
-public class checking {
+public class Checking {
 
+    /**
+     * @param cIn
+     * @return
+     * Converts the user input to a format the select method can work with
+     */
     protected static String simplify(String cIn) {
 
         var in = cIn.toLowerCase();
@@ -26,6 +31,11 @@ public class checking {
 
     }
 
+    /**
+     * @param in
+     * @return
+     * Checks if input will be binary
+     */
     private static boolean bincheck(String in) {
         if (in.equals("2") || in.equals("bin") || in.equals("binary") || in.equals("binär")) {
             return true;
@@ -35,6 +45,11 @@ public class checking {
         }
     }
 
+    /**
+     * @param in
+     * @return
+     * Checks if input will be decimal
+     */
     private static boolean deccheck(String in) {
         if (in.equals("10") || in.equals("dec") || in.equals("decimal") || in.equals("dezimal")) {
             return true;
@@ -44,6 +59,11 @@ public class checking {
         }
     }
 
+    /**
+     * @param in
+     * @return
+     * Checks if input will be hexadecimal
+     */
     private static boolean hexcheck(String in) {
         if (in.equals("16") || in.equals("hex") || in.equals("hexadecimal") || in.equals("hexadezimal")) {
             return true;
