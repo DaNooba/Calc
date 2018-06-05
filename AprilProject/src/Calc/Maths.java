@@ -1,9 +1,14 @@
-package AprilProject;
+package Calc;
 
 import java.util.InputMismatchException;
 
-public class maths {
+public class Maths {
 
+    /**
+     * @param in
+     * @return
+     * Converts input from binary to decimal
+     */
     protected static String BiDec(String in) {
 
         var bin = Integer.parseInt(in);
@@ -33,6 +38,11 @@ public class maths {
 
     }
 
+    /**
+     * @param in
+     * @return
+     * Converts input from decimal to hexadecimal
+     */
     protected static String DecHex(String in) {
 
         var dec = Integer.parseInt(in);
@@ -43,8 +53,7 @@ public class maths {
         hex.setLength(16);
         var zero = true;
 
-        for (var i = 15; i >= 0; --i)
-        {
+        for (var i = 15; i >= 0; --i) {
             var j = dec & hb;
             hex.setCharAt(i, hexChart[j]);
             dec >>= 4;
@@ -52,8 +61,7 @@ public class maths {
 
         var tmp = hex.toString();
 
-        for (var i = 0; i<tmp.length() && zero; i++)
-        {
+        for (var i = 0; i<tmp.length() && zero; i++) {
             if (tmp.charAt(i)!='0')
                 zero = false;
         }
@@ -62,13 +70,19 @@ public class maths {
             return "0";
         }
         else {
-            while (tmp.indexOf("0") == 0)
+            while (tmp.indexOf("0") == 0) {
                 tmp = tmp.substring(1);
+            }
             return tmp;
         }
 
     }
 
+    /**
+     * @param in
+     * @return
+     * Converts input from hexadecimal to decimal
+     */
     protected static String HexDec(String in) {
         var digits = "0123456789ABCDEF";
         in = in.toUpperCase();
@@ -92,6 +106,11 @@ public class maths {
         return dec;
     }
 
+    /**
+     * @param in
+     * @return
+     * Converts input from decimal to binary
+     */
     protected static String DecBin(String in) {
 
         var dec = Integer.parseInt(in);

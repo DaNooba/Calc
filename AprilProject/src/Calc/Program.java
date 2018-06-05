@@ -1,11 +1,11 @@
-package AprilProject;
+package Calc;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class program {
+public class Program {
 
-    public static void start() {
+    protected static void start() {
 
         while (true) {
             try {
@@ -24,23 +24,39 @@ public class program {
 
     }
 
+    /**
+     * @param type
+     * @return
+     * Takes user input for the number to convert
+     */
     private static String input(String type) {
         System.out.printf("Geben sie eine %s Zahl ein: %n", type);
         return scn();
     }
 
+    /**
+     * @param type
+     * @param set
+     * @return
+     * Overloaded input to select the in- and output system
+     */
     private static String input(String type, boolean set) {
         System.out.printf("Bitte wählen sie ihr %s Zahlensystem aus: %n", type);
         return scn();
     }
 
+    /**
+     * @param cIn
+     * @param cOut
+     * Selects which action to perform and then executes it
+     */
     private static void select(String cIn, String cOut) {
 
         String inNum;
         String res;
 
-        var in = checking.simplify(cIn);
-        var out = checking.simplify(cOut);
+        var in = Checking.simplify(cIn);
+        var out = Checking.simplify(cOut);
 
         var convert = in.concat(out);
 
@@ -50,17 +66,17 @@ public class program {
                 break;
             case "210":     //done
                 inNum = input("Binär");
-                res = maths.BiDec(inNum);
+                res = Maths.BiDec(inNum);
                 print(res);
                 break;
             case "216":     //done
                 inNum = input("Binär");
-                res = maths.DecHex(maths.BiDec(inNum));
+                res = Maths.DecHex(Maths.BiDec(inNum));
                 print(res);
                 break;
             case "102":     //done
                 inNum = input("Dezimal");
-                res = maths.DecBin(inNum);
+                res = Maths.DecBin(inNum);
                 print(res);
                 break;
             case "1010":    //done
@@ -68,17 +84,17 @@ public class program {
                 break;
             case "1016":    //done
                 inNum = input("Dezimal");
-                res = maths.DecHex(inNum);
+                res = Maths.DecHex(inNum);
                 print(res);
                 break;
             case "162":     //done
                 inNum = input("Hexadezimal");
-                res = maths.DecBin(maths.HexDec(inNum));
+                res = Maths.DecBin(Maths.HexDec(inNum));
                 print(res);
                 break;
             case "1610":    //done
                 inNum = input("Hexadezimal");
-                res = maths.HexDec(inNum);
+                res = Maths.HexDec(inNum);
                 print(res);
                 break;
             case "1616":    //done
@@ -88,10 +104,17 @@ public class program {
 
     }
 
+    /**
+     * @param num
+     * Writes result to console
+     */
     private static void print(String num) {
         System.out.printf("Das Ergebnis ist: %s%n", num);
     }
 
+    /**
+     * Asks the user whether or not they want to re-run the program, terminates otherwise
+     */
     private static void restart() {
 
         while (true) {
@@ -111,6 +134,10 @@ public class program {
 
     }
 
+    /**
+     * @return
+     * Basic scanner
+     */
     private static String scn() {
         var sc = new Scanner(System.in);
         var in = sc.next();
